@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@discordjs/voice": "^0.15.0",
+    "@google-cloud/text-to-speech": "^4.2.1",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "libsodium-wrappers": "^0.7.11",
+    "openai": "^3.2.0"
+  },
+  "name": "leanderbot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
